@@ -9,9 +9,17 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
-  const title = movies['Titanic'].title)
-  const titleDev = document.querySelector('#title')
+  const title = movies['Titanic'].title
+  const titleDei = document.querySelector('#title')
   titleDiv.innerText = title
 
-  const director = movies
+  const director = movies['Titanic'].director
+   const directorDeiv = document.querySelector('#director')
+ directorDiv.innerText = director
+ 
+ const director = movies['Titanic'].director
+   const directorDeiv = document.querySelector('#director')
+ directorDiv.innerText = director
+ 
+ 
 }
