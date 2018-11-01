@@ -9,5 +9,5 @@ document.addEventListener("DOMContentloaded", (e) => {
 });
 
 function fillInMovieData() {
-  
+  console.log('im getting here')
 }
