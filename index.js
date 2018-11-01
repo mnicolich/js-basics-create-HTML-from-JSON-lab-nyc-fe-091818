@@ -9,19 +9,22 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
+  const currentMovie = movies['Titanic']
+  
+  
   const title = movies['Titanic'].title
   const titleDiv = document.querySelector('#title')
   titleDiv.innerText = title
 
-  const director = movies['Titanic'].director
+  const director = currentMovie.director
    const directorDiv = document.querySelector('#director')
  directorDiv.innerText = director
  
- const genre = movies['Titanic'].genre
+ const genre = currentMovie.genre
    const genreDiv = document.querySelector('#genre')
  genreDiv.innerText = genre
 
- const filmRating = movies['Titanic'].filmRating
+ const filmRating = currentMovie.filmRating
    const filmRatingDiv = document.querySelector('#filmRating')
- filmRating.innerText = filmRating
+ filmRatingDiv.innerText = filmRating
 }
