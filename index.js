@@ -41,6 +41,8 @@ descriptionDiv.innerText = description
 audienceScoreDive.innerText = audienceScore
 
 for (let castMember in currentMovie.cast) {
+  console.log(castMember)
+  const li = document.createElement('li')
   
 }
 }
