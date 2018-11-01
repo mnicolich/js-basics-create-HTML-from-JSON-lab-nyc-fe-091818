@@ -38,5 +38,9 @@ descriptionDiv.innerText = description
 
  const audienceScore = currentMovie.audienceScore
  const audienceScoreDiv = document.querySelector('#audienceScore)
-audienceScoreDive.innerText = audienceScore 
+audienceScoreDive.innerText = audienceScore
+
+for (let castMember in currentMovie.cast) {
+  
+}
 }
