@@ -47,9 +47,9 @@ for (let castMember in currentMovie.cast) {
   const div = document.querySelector('#cast')
   div.appendChild(li)
   
-  for (let reviews in currentMovie.reviews) {
+  for (let review in currentMovie.reviews) {
   const li = document.createElement('li')
-  li.innerText = reviews.username + ':' + reviews.content
+  li.innerText = review.username + ':' + review.content
   const div = document.querySelector('#reviews')
   div.appendChild(li)
 }
