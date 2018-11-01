@@ -43,6 +43,6 @@ audienceScoreDive.innerText = audienceScore
 for (let castMember in currentMovie.cast) {
   console.log(castMember)
   const li = document.createElement('li')
-  
+  li.innerText = castMember.role + ':' +  castMember.actor
 }
 }
