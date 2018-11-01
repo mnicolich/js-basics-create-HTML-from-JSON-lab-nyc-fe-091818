@@ -21,14 +21,22 @@ function fillInMovieData() {
  directorDiv.innerText = director
  
  const genre = currentMovie.genre
-   const genreDiv = document.querySelector('#genre')
+ const genreDiv = document.querySelector('#genre')
  genreDiv.innerText = genre
 
  const filmRating = currentMovie.filmRating
-   const filmRatingDiv = document.querySelector('#filmRating')
+ const filmRatingDiv = document.querySelector('#filmRating')
  filmRatingDiv.innerText = filmRating
  
  const poster = currentMovie.poster
-   const posterImg = document.querySelector('#poster')
+ const posterImg = document.querySelector('#poster')
 posterImg.src = poster 
+
+ const description = currentMovie.description
+ const descriptionDiv = document.querySelector('#description)
+descriptionDiv.innerText = description 
+
+ const audienceScore = currentMovie.audienceScore
+ const audienceScoreDiv = document.querySelector('#audienceScore)
+audienceScoreDive.innerText = audienceScore 
 }
