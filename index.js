@@ -33,11 +33,11 @@ function fillInMovieData() {
 posterImg.src = poster 
 
  const description = currentMovie.description
- const descriptionDiv = document.querySelector('#description)
+ const descriptionDiv = document.querySelector('#description')
 descriptionDiv.innerText = description 
 
  const audienceScore = currentMovie.audienceScore
- const audienceScoreDiv = document.querySelector('#audienceScore)
+ const audienceScoreDiv = document.querySelector('#audienceScore')
 audienceScoreDive.innerText = audienceScore
 
 for (let castMember in currentMovie.cast) {
